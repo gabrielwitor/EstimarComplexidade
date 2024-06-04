@@ -17,7 +17,7 @@ int main(){
             clock_t end_t = clock();
 
             double total_t = (double)(end_t - start_t) / CLOCKS_PER_SEC;
-            fprintf(f,"%f ",tamanho,repeticoes, total_t);
+            fprintf(f,"%f ",total_t);
             printf("TAMANHO[%d] REP[%d] Total time taken by CPU: %f\n",tamanho,repeticoes, total_t);
             lst = libera_lista(lst);
         }
